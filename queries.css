@@ -1,0 +1,285 @@
+/*########### MEDIA QUERIES FOR LOGO ANIMATION ###########*/
+
+@media (max-width: 1920px) {
+    .sparkles {
+        right: 700px;
+        animation: sparklesAnimation 2s;
+    }
+
+    @keyframes sparklesAnimation {
+        from {
+            right: 1000px;
+            opacity: 0;
+        }
+        to {
+            right: 700px;
+            opacity: 1;
+        }
+    }
+
+    .scissor {
+        left: 700px;
+        animation: scissorAnimation 2s;
+    }
+
+    @keyframes scissorAnimation {
+        from {
+            left: 1000px;
+            opacity: 0;
+        }
+        to {
+            left: 700px;
+            opacity: 1;
+        }
+    }
+}
+
+@media (max-width: 1749px) {
+    .sparkles {
+        right: 600px;
+        animation: sparklesAnimation 2s;
+    }
+
+    @keyframes sparklesAnimation {
+        from {
+            right: 900px;
+            opacity: 0;
+        }
+        to {
+            right: 600px;
+            opacity: 1;
+        }
+    }
+
+    .scissor {
+        left: 600px;
+        animation: scissorAnimation 2s;
+    }
+
+    @keyframes scissorAnimation {
+        from {
+            left: 900px;
+            opacity: 0;
+        }
+        to {
+            left: 600px;
+            opacity: 1;
+        }
+    }
+}
+
+@media (max-width: 1549px) {
+    .sparkles {
+        right: 500px;
+        animation: sparklesAnimation 2s;
+    }
+
+    @keyframes sparklesAnimation {
+        from {
+            right: 900px;
+            opacity: 0;
+        }
+        to {
+            right: 500px;
+            opacity: 1;
+        }
+    }
+
+    .scissor {
+        left: 500px;
+        animation: scissorAnimation 2s;
+    }
+
+    @keyframes scissorAnimation {
+        from {
+            left: 900px;
+            opacity: 0;
+        }
+        to {
+            left: 500px;
+            opacity: 1;
+        }
+    }
+}
+
+@media (max-width: 1349px) {
+    .sparkles {
+        right: 400px;
+        animation: sparklesAnimation 2s;
+    }
+
+    @keyframes sparklesAnimation {
+        from {
+            right: 800px;
+            opacity: 0;
+        }
+        to {
+            right: 400px;
+            opacity: 1;
+        }
+    }
+
+    .scissor {
+        left: 400px;
+        animation: scissorAnimation 2s;
+    }
+
+    @keyframes scissorAnimation {
+        from {
+            left: 800px;
+            opacity: 0;
+        }
+        to {
+            left: 400px;
+            opacity: 1;
+        }
+    }
+}
+
+@media (max-width: 1149px) {
+    .sparkles {
+        right: 300px;
+        animation: sparklesAnimation 2s;
+    }
+
+    @keyframes sparklesAnimation {
+        from {
+            right: 600px;
+            opacity: 0;
+        }
+        to {
+            right: 300px;
+            opacity: 1;
+        }
+    }
+
+    .scissor {
+        left: 300px;
+        animation: scissorAnimation 2s;
+    }
+
+    @keyframes scissorAnimation {
+        from {
+            left: 600px;
+            opacity: 0;
+        }
+        to {
+            left: 300px;
+            opacity: 1;
+        }
+    }
+
+    .three-column-container article {
+        margin: 0 auto;
+    }
+
+    .three-column-container {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 949px) {
+    .sparkles {
+        right: 200px;
+        animation: sparklesAnimation 2s;
+    }
+
+    @keyframes sparklesAnimation {
+        from {
+            right: 400px;
+            opacity: 0;
+        }
+        to {
+            right: 200px;
+            opacity: 1;
+        }
+    }
+
+    .scissor {
+        left: 200px;
+        animation: scissorAnimation 2s;
+    }
+
+    @keyframes scissorAnimation {
+        from {
+            left: 400px;
+            opacity: 0;
+        }
+        to {
+            left: 200px;
+            opacity: 1;
+        }
+    }
+
+    .three-column-container article {
+        width: 19rem;
+    }
+
+    .three-column-container {
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 849px) {
+    nav ul {
+        height: 9rem;
+    }
+
+    nav li {
+        margin: 0.8rem 3rem 0.8rem 3rem;
+    }
+}
+
+@media (max-width: 749px) {
+    .sparkles {
+        right: 100px;
+        animation: sparklesAnimation 2s;
+    }
+
+    @keyframes sparklesAnimation {
+        from {
+            right: 200px;
+            opacity: 0;
+        }
+        to {
+            right: 100px;
+            opacity: 1;
+        }
+    }
+
+    .scissor {
+        left: 100px;
+        animation: scissorAnimation 2s;
+    }
+
+    @keyframes scissorAnimation {
+        from {
+            left: 200px;
+            opacity: 0;
+        }
+        to {
+            left: 100px;
+            opacity: 1;
+        }
+    }
+
+    .three-column-container article {
+        width: 28rem;
+    }
+}
+
+@media (max-width: 449px) {
+    footer {
+        display: block;
+    }
+
+    .footer-logo-cnt {
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media (max-width: 420px) {
+    nav ul {
+        height: 17rem;
+    }
+}
